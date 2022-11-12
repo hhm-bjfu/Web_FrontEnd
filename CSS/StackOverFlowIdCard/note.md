@@ -2,19 +2,17 @@
 
 为了巩固css知识，我们模仿StackOverFlow网站的名片样式，网站图如下：
 
-![image-20221111191352971](./note.assets/image-20221111191352971.png)
-
-
+![image-20221111232700283](./note.assets/image-20221111232700283.png)
 
 1、确定整体结构
 
 ![image-20221111191836125](./note.assets/image-20221111191836125.png)
 
- 
+ 2、编写代码
 
+3、 最终效果
 
-
-
+![image-20221112102229768](./note.assets/image-20221112102229768.png)
 
 ## 下载Bootstrap
 

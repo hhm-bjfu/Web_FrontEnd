@@ -1,55 +1,61 @@
-.user-card {
+.card {
+  font-size: 13px;
   width: 200px;
   height: 67.69px;
+  margin: 4px 0px;
   background-color: #d9eaf7;
   margin: 100px auto;
   padding: 5px 6px 7px 7px;
   box-sizing: border-box;
 }
 
-.user-card-head {
+.card-head {
   font-size: 12px;
   color: #6a737c;
   margin: 1px 0 4px 0;
 }
 
-.user-card-body-photo > img {
-  width: 32px;
-  height: 32px;
-}
-
-.user-card-body-photo {
+.card-body-avatar {
   float: left;
 }
 
-.user-card-body-info {
+.card-body-avatar > img {
+  /* 只需要设置宽高 */
+  width: 30px;
+  height: 30px;
+}
+
+.card-body-info {
+  /* 只需要设置浮动、margin */
   float: left;
   margin-left: 8px;
 }
 
-.user-card-body-info-username {
+.card-body-info-name {
   height: 16px;
 }
 
-.user-card-body-info-username > a {
+.card-body-info-name > a {
+  /* 只需要设置字体大小、颜色、块高 */
   font-size: 13px;
   color: #0074cc;
   text-decoration: none;
 }
 
-.user-card-body-info-reputation {
+.card-body-info-reputation {
+  /* 只需要设置字体大小、颜色、块高、行高居中 */
   font-size: 12px;
   color: #838c95;
   height: 16px;
   line-height: 16px;
 }
 
-.user-card-body-info-reputation-item {
+.card-body-info-reputation-item {
   width: 6px;
   height: 6px;
   display: inline-block;
   border-radius: 50%;
   margin: 0 3px 0 2px;
   position: relative;
-  top: -2px;
+  top: -1px;
 }
