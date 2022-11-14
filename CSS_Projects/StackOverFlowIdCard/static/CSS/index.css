@@ -1,0 +1,61 @@
+.card {
+  font-size: 13px;
+  width: 200px;
+  height: 67.69px;
+  margin: 4px 0px;
+  background-color: #d9eaf7;
+  margin: 100px auto;
+  padding: 5px 6px 7px 7px;
+  box-sizing: border-box;
+}
+
+.card-head {
+  font-size: 12px;
+  color: #6a737c;
+  margin: 1px 0 4px 0;
+}
+
+.card-body-avatar {
+  float: left;
+}
+
+.card-body-avatar > img {
+  /* 只需要设置宽高 */
+  width: 30px;
+  height: 30px;
+}
+
+.card-body-info {
+  /* 只需要设置浮动、margin */
+  float: left;
+  margin-left: 8px;
+}
+
+.card-body-info-name {
+  height: 16px;
+}
+
+.card-body-info-name > a {
+  /* 只需要设置字体大小、颜色、块高 */
+  font-size: 13px;
+  color: #0074cc;
+  text-decoration: none;
+}
+
+.card-body-info-reputation {
+  /* 只需要设置字体大小、颜色、块高、行高居中 */
+  font-size: 12px;
+  color: #838c95;
+  height: 16px;
+  line-height: 16px;
+}
+
+.card-body-info-reputation-item {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px 0 2px;
+  position: relative;
+  top: -1px;
+}
